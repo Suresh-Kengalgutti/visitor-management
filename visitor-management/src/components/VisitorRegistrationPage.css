@@ -1,0 +1,220 @@
+.visitor-page-container {
+    display: flex;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .marketing-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .marketing-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .website-link {
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+}
+  
+  .registration-form-container {
+    background-color: #ffffff;
+    padding: 5px 30px 30px 30px;
+    border-radius: 8px;
+    width: 100%;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .registration-form-container h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #333;
+  }
+  
+  .registration-form-container > span {
+    text-align: center;
+    color: #555;
+    font-size: smaller;
+    margin-bottom: 16px;
+    display: block;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-group label {
+    margin-bottom: 4px;
+    font-weight: 500;
+    float: left;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="datetime-local"],
+  .form-group select,
+  .form-group textarea {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    min-height: 50px;
+    resize: vertical;
+  }
+  
+  .photo-capture-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .capture-button {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .capture-button img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .capture-button span {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .webcam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .webcam-container video {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  
+  .photo-preview {
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+  }
+  
+  .photo-preview img {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      max-width: 100%;
+      height: auto;
+      box-sizing: border-box;
+  }
+  
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .visitor-page-container {
+      flex-direction: column;
+    }
+  
+    .left-section {
+      padding: 20px;
+    }
+  
+    .right-section {
+      padding: 20px;
+    }
+  
+    .marketing-content h1 {
+      font-size: 2em;
+    }
+  }
+
+  .from-group-4 {
+    width:40%;
+    float: left;
+  }
+  .form-group-6 {
+    width: 55%;
+    float: right;
+  }
+  .text-danger {
+    color: red;
+  }
