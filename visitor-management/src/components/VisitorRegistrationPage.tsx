@@ -143,7 +143,7 @@ const VisitorRegistrationPage: React.FC = () => {
             <img src="/path/to/youtube-icon.png" alt="YouTube" />
             <img src="/path/to/instagram-icon.png" alt="Instagram" />
           </div>
-          <p className="website-link">www.intelliswift.com</p>
+          <p className="website-link">www.website.com</p>
         </div>
       </div>
       <div className="right-section">

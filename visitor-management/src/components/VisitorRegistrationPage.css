@@ -13,6 +13,10 @@
     box-sizing: border-box;
   }
   
+  .logo {
+    text-align: justify;
+  }
+
   .logo img {
     max-width: 150px;
     height: auto;
